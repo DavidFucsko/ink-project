@@ -1,0 +1,46 @@
+#canvas {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 200vh;
+    width: 100vw;
+}
+
+.animation-image {
+    background-image: url('moraine_lake_canadian_rockies-wallpaper-1920x1080.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.animation-effect {
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.animation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
